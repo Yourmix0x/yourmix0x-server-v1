@@ -10,14 +10,13 @@ configDotenv();
 // create Express app instance
 const app = express();
 
-// Apply JSON middleware to parse incoming requests
+// apply JSON middleware to parse incoming requests
 app.use(express.json());
 
-// Use morgan middleware for logging requests in development mode
+// use morgan middleware for logging requests in development mode
 app.use(morgan("dev"));
 
 // defining the routes
-
 // home route
 app.get("/", (req, res) =>
   res.status(200).json({
