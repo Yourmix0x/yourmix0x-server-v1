@@ -28,10 +28,10 @@ app.use(morgan("dev"));
 app.get("/", (req, res) =>
   res.status(200).json({
     message: "up and active 😎",
-    author: "yourmixjnr",
+    author: "yourmix0x",
     description:
       "software engineer with 3+ years of experience blessed by hard work and driven by passion!",
-    portfolio: "https://yourmixjnr.vercel.app/",
+    portfolio: "https://yourmixjnr.tech/",
   })
 );
 
@@ -54,7 +54,7 @@ app.post("/api/v1/submit", async (req, res) => {
       recipient: envConfig.EMAIL_RECIPIENT,  // Set recipient from environment config
       subject: subject,
       htmlContent: `
-        <h3>Hello YourmixJNR, You've got a message from ${name}</h3>
+        <h3>Hello Yourmix0x, You've got a message from ${name}</h3>
         <p>Below is the message:</p><br />
         <p>${message}</p>
         <br />

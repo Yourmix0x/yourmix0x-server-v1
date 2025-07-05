@@ -18,7 +18,7 @@ const transporter = nodeMailer.createTransport({
 
 export async function sendMail(options) {
   const mailOptions = {
-    from: "yourmixjnr-portfolio-v1",
+    from: "yourmix0x-portfolio-v1",
     to: options.recipient,
     subject: options.subject,
     html: options.htmlContent,

@@ -1,6 +1,6 @@
-# Portfolio Server - `yourmixjnr-portfolio-v1`
+# Portfolio Server - `yourmix0x-portfolio-v1`
 
-Welcome to the backend server for [**YourMixJnr Portfolio**](https://yourmixjnr.vercel.app/)! 🚀
+Welcome to the backend server for [**Yourmix0x Portfolio**](https://yourmixjnr.tech/)! 🚀
 
 This server powers the contact form on my portfolio website, managing message submissions and ensuring users can connect with me seamlessly.
 
@@ -9,7 +9,7 @@ This server powers the contact form on my portfolio website, managing message su
 ## 🌐 Portfolio and Resume
 You can explore my **portfolio** and view my **resume** at the link below:
 
-🔗 [https://yourmixjnr.vercel.app/](https://yourmixjnr.vercel.app/)
+🔗 [https://yourmixjnr.tech/](https://yourmixjnr.tech/)
 
 ---
 
